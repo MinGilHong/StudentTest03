@@ -29,13 +29,13 @@ public class StudentData {
 	
 	
 	public StudentData(String name,int id,int kor,int eng,int math){
-		this.name   = null;
+		this.name   = name;
 		this.id     = id;
 		this.kor    = kor;
 		this.eng    = eng;
 		this.math   = math;
 		this.total  = 0;
-		this.avr    = 0;
+		this.avr    = 0.0;
 		this.grade  = 0;
 		
 		

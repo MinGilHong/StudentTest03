@@ -9,7 +9,7 @@ public class StudentExam {
 	public static void main(String[] args) {
 		
 		StudentData sd = new StudentData();
-		
+		StudentData sd2 = new StudentData("chulhong",1500,100,80,75);
 		
 		System.out.print("input name >> ");
 		String name = scan.nextLine();
@@ -50,6 +50,18 @@ public class StudentExam {
 		
 		
 		
+			
+	
+		sd2.StudentTotal();
+		
+		
+		sd2.StudentAvr();
+		
+		
+		sd2.StudentGrade();
+		
+		
+		System.out.println(sd2.toString());
+		
 	}
-
 }
